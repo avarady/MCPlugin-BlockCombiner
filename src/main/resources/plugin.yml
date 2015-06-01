@@ -1,0 +1,13 @@
+name: BlockCombiner
+main: com.xxyrana.blockcombiner.BlockCombiner
+version: 1.0
+commands:
+   block:
+      description: Condenses items into blocks
+      usage: /<command> [type]
+      permission: blocks.block
+      permission-message: You don't have <permission>
+permissions:
+    blocks.block:
+        description: Allows players to use the /block command
+        default: true
