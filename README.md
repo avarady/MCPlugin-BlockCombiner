@@ -1,19 +1,19 @@
-# MCPlugin-BlockCombiner
+#BlockCombiner
 Combines items in inventory, such as iron ingots to iron blocks or string to wool.
 
 
-#Permissions
+##Permissions
 | Node | Permission |
 |:---|:---|
 | blocks.block | Allows players to use the /block command. |
 
-#Commands
+##Commands
 | Command | Effect |
 |:---|:---|
 | /block | Converts all ores in inventory. |
 | /block \<arg\> | Converts specific types of items in inventory. |
 
-###Command Arguments
+####Command Arguments
 | Argument | Conversion |
 |:---|:---|
 | lapis | Lapis Lazuli -> Lapis Blocks |
